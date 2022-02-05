@@ -188,3 +188,12 @@ USE [master]
 GO
 ALTER DATABASE [ParqueaderoDB] SET  READ_WRITE 
 GO
+
+/****** Crea tipos de vehiculo******/
+USE [ParqueaderoDB]
+GO
+
+INSERT INTO [dbo].[TiposVehiculo]
+           ([tipoNombre])
+     VALUES ('Carro'), ('Motocicleta'),('Bicicleta')
+GO
